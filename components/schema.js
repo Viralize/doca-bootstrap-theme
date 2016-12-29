@@ -41,7 +41,6 @@ class Schema extends Component {
               Object definition{schema.getIn(['object_definition', 'objects']).count() > 0 &&
                 <span>s</span>}
             </h4>
-            <p>View properties and constraints defined on the object</p>
 
             {IS_JAVASCRIPT &&
               <p>

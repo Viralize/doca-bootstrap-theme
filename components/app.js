@@ -24,7 +24,7 @@ class App extends Component {
         </header>
 
         <div className="row">
-          <div className="col-lg-9">
+          <div className="col-lg-12">
             {schemas
               .filter(schema => !schema.get('hidden'))
               .valueSeq()
