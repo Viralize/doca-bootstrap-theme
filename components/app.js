@@ -1,7 +1,6 @@
 const React = require('react');
 const ImmutablePropTypes = require('react-immutable-proptypes');
 const Component = require('react-pure-render/component');
-const Sidebar = require('./sidebar');
 const Schema = require('./schema');
 
 class App extends Component {
