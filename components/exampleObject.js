@@ -1,4 +1,5 @@
 const React = require('react');
+const Highlight = require('react-highlight');
 const Component = require('react-pure-render/component');
 
 class ExampleObject extends Component {
@@ -15,7 +16,11 @@ class ExampleObject extends Component {
           <h5>Example object</h5>
         </div>
         <div>
-          <pre>{example}</pre>
+          <Highlight
+            className="json"
+          >
+            {example}
+          </Highlight>
         </div>
       </div>
     );
