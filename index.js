@@ -1,4 +1,4 @@
-'use strict';
+
 
 module.exports = {
   App: require('./build/app'),
@@ -9,5 +9,4 @@ module.exports = {
   Head: require('./build/head'),
   ObjectDefinitionTable: require('./build/objectDefinitionTable'),
   Schema: require('./build/schema'),
-  Sidebar: require('./build/sidebar')
 };

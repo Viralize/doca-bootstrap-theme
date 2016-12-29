@@ -25,7 +25,6 @@ class App extends Component {
         </header>
 
         <div className="row">
-          <Sidebar schemas={schemas} />
           <div className="col-lg-9">
             {schemas
               .filter(schema => !schema.get('hidden'))
